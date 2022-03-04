@@ -55,9 +55,9 @@ document.getElementById("btnTinhLuong").onclick = function (){
  * Bài Tập 3: Quy đổi tiền
  * Đầu Vào
  * - Tạo biến nhập usd (usd)
- * - Giá mỗi usd hiện tại 23,5000 ( const)
+ * - Giá mỗi usd hiện tại 23,5000 ( VND)
  * Xử Lý:
- * - tongSoNgay*LUONG
+ * - usd*VND
  * Đầu Ra: Show kết quả
  */
 
@@ -108,8 +108,9 @@ document.getElementById("btnTinhLuong").onclick = function (){
  * Đầu Vào
  * - Tạo biến nhập 2 Ký Số (n)
  * Xử Lý:
- * - Lấy số hàng chục: Math.floor (n%100/10)
- * - Lấy số hàng đơn vị: n%10
+ * - Lấy số hàng chục: Math.floor (n%100/10) (hangChuc)
+ * - Lấy số hàng đơn vị: n%10 (hangDonVi)
+ * - tong2KySo = hangChuc + hangDonVi
  * Đầu Ra: Show kết quả
  */
 
